@@ -20,7 +20,7 @@ def calculate():
 root = tk.Tk()
 root.title("Calculator")
 root.geometry("320x450")
-root.resizable(False, False)
+root.resizable(True, True)
 
 entry_var = tk.StringVar()
 
